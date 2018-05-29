@@ -33,6 +33,7 @@ Creating superposition
   superposition:
 | 
 | 
+
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=3033b263493f8f4eacad676036b70f22&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-075df8e2dacac4fa2f76486ecc850ba0.png" style="width: 100%; max-width: 600px;"></a>

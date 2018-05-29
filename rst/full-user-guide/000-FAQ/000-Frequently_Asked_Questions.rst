@@ -332,5 +332,3 @@ run off the queue. On the other hand, "Promo Units" are extra units that
 allow you to run extra executions but, once used, these credits won't be
 replenished. If you have "Promo Units", these will be used first rather
 than "Current Units".
-
-.. cssclass:: h2

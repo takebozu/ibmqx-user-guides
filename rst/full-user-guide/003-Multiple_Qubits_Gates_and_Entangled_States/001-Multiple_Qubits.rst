@@ -13,16 +13,17 @@ for two qubits is
 
 for three qubits,
 
-:math:`\{|000\rangle, |001\rangle,  |010\rangle,  |011\rangle, 
-  |100\rangle,  |101\rangle,  |110\rangle,  |111\rangle \}`;
+.. math::
+  \{|000\rangle, |001\rangle,  |010\rangle,  |011\rangle, 
+  |100\rangle,  |101\rangle,  |110\rangle,  |111\rangle \};
 
 and for four qubits,
 
-:math:`\{|0000\rangle, |0001\rangle,  |0010\rangle,  |0011\rangle, 
-|0100\rangle,  |0101\rangle,  |0110\rangle,  |0111\rangle,
-|1000\rangle, |1001\rangle,`  :math:`|1010\rangle,  |1011\rangle, 
-|1100\rangle,  |1101\rangle,  |1110\rangle,  |1111\rangle 
-\}`.
+.. math::
+  \{|0000\rangle, |0001\rangle,  |0010\rangle,  |0011\rangle, 
+  |0100\rangle,  |0101\rangle,  |0110\rangle,  |0111\rangle,
+  |1000\rangle,  |1001\rangle,  |1010\rangle,  |1011\rangle, 
+  |1100\rangle,  |1101\rangle,  |1110\rangle,  |1111\rangle \}.
 
 You may notice the number of terms is increasing exponentially. Try
 writing out all 32 terms for five qubits, then try writing them all out
