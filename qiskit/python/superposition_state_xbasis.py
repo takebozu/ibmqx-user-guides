@@ -1,5 +1,5 @@
 # superposition_state_xbasis.py
-from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister, execute
+from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister, execute, Aer
 
 # Define the Quantum and Classical Registers
 q = QuantumRegister(1)
@@ -13,7 +13,7 @@ superposition_state_xbasis.h(q)
 superposition_state_xbasis.measure(q, c)
 
 # Execute the circuit
-job = execute(superposition_state_xbasis, backend = 'local_qasm_simulator', shots=1024)
+job = execute(superposition_state_xbasis, backend = Aer.get_backend('qasm_simulator'), shots=1024)
 result = job.result()
 
 # Print the result

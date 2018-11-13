@@ -1,5 +1,5 @@
 # negative_superposition_state.py
-from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister, execute
+from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister, execute, Aer
 
 # Define the Quantum and Classical Registers
 q = QuantumRegister(1)
@@ -12,7 +12,7 @@ negative_superposition_state.h(q)
 negative_superposition_state.measure(q, c)
 
 # Execute the circuit
-job = execute(negative_superposition_state, backend = 'local_qasm_simulator', shots=1024)
+job = execute(negative_superposition_state, backend = Aer.get_backend('qasm_simulator'), shots=1024)
 result = job.result()
 
 # Print the result

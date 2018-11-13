@@ -1,7 +1,7 @@
 # quantum_phase_bloch.py
 import numpy as np
 
-from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister, execute
+from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister, execute, Aer
 from qiskit.tools.visualization import plot_bloch_vector
 
 # Define the Quantum and Classical Registers
@@ -40,7 +40,7 @@ for exp_index in exp_vector:
     circuits.append(pre + middle + meas_z)
     
 # Execute the circuit
-job = execute(circuits, backend = 'local_qasm_simulator', shots=1024)
+job = execute(circuits, backend = Aer.get_backend('qasm_simulator'), shots=1024)
 result = job.result()
 
 # Plot the result
