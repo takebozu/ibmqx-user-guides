@@ -7,5 +7,5 @@ qreg q[2];
 creg c[2];
 
 // Quantum Circuit
-cx q[0],q[1]
+cx q[0],q[1];
 measure q -> c;
